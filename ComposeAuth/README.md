@@ -109,7 +109,7 @@ Before start, make sure your iOS app works well first, it would be easier to iso
 ```swift
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>io.github.jan.supabase.ios</string>
+	<string>com.example.app</string>
 	<key>GIDClientID</key>
 	<string>YOUR_CLIENT_ID</string>
 	<key>CADisableMinimumFrameDurationOnPhone</key>

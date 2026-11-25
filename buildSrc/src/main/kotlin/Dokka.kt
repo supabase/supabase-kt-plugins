@@ -18,7 +18,7 @@ fun Project.applyDokkaWithConfiguration() {
       //      includes.from("README.md")
             sourceLink {
                 localDirectory.set(projectDir.resolve("src"))
-                remoteUrl.set(URI("https://github.com/supabase-community/supabase-kt-plugins/tree/master/$name/src"))
+                remoteUrl.set(URI("https://github.com/supabase/supabase-kt-plugins/tree/main/$name/src"))
                 remoteLineSuffix.set("#L")
             }
         }

@@ -62,12 +62,12 @@ fun Project.applyPublishing() {
             name.set(this@applyPublishing.name)
             description.set(this@applyPublishing.description ?: "A Kotlin Multiplatform Supabase SDK")
             inceptionYear.set("2024")
-            url.set("https://github.com/supabase-community/supabase-kt/")
+            url.set("https://github.com/supabase/supabase-kt-plugins/")
             licenses {
                 license {
                     name.set("MIT License")
-                    url.set("https://github.com/supabase-community/supabase-kt/blob/master/LICENSE")
-                    distribution.set("https://github.com/supabase-community/supabase-kt/blob/master/LICENSE")
+                    url.set("https://github.com/supabase/supabase-kt-plugins/blob/main/LICENSE")
+                    distribution.set("https://github.com/supabase/supabase-kt-plugins/blob/main/LICENSE")
                 }
             }
             developers {
@@ -78,9 +78,9 @@ fun Project.applyPublishing() {
                 }
             }
             scm {
-                url.set("https://github.com/supabase-community/supabase-kt/")
-                connection.set("scm:git:git://github.com/supabase-community/supabase-kt.git")
-                developerConnection.set("scm:git:ssh://git@github.com/supabase-community/supabase-kt.git")
+                url.set("https://github.com/supabase/supabase-kt-plugins/")
+                connection.set("scm:git:git://github.com/supabase/supabase-kt-plugins.git")
+                developerConnection.set("scm:git:ssh://git@github.com/supabase/supabase-kt-plugins.git")
             }
         }
     }
